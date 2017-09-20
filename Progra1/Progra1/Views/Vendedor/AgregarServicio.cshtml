@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "AgregarServicio";
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Agregar Servicio</h1>
+        </div>
+
+        <form class="col-md-3">
+
+            <div>
+                <div class="form-group">
+                    <label>Nombre del servicio</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Distancia en kilometros</label>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Latitud</label>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Longitud</label>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Fotografias del servicio</label>
+                </div>
+                <div class="form-group">
+                    <input type="file" class="form-control" accept="image/*" multiple required>
+                </div>
+
+                <div class="form-group">
+                    <label>Cantidad de tarifas</label>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" min="1" max="10" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-dark">
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
