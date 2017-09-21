@@ -39,5 +39,11 @@ namespace Progra1.Controllers
 
             return htmltarifas;
         }
+
+        //[HttpPost]
+        //public ActionResult login(FormCollection form)
+        //{
+        //    if(ModelState)
+        //}
     }
 }
