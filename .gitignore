@@ -1,0 +1,9 @@
+Progra1\.vs\
+Progra1\packages\
+Progra1\Progra1\obj\
+*.sqlite
+*.config
+*.ide
+*.cache
+*.sqlite-journal
+*.config
