@@ -7,3 +7,5 @@ Progra1\Progra1\obj\
 *.cache
 *.sqlite-journal
 *.config
+*.csproj
+*.user
